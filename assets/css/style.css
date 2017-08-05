@@ -163,23 +163,33 @@ p {
 }*/
 
 #p_title {
-	position: absolute;
-	bottom:15px;
+	/*position: absolute;*/
+	/*bottom:15px;*/
 	text-align: center;
-	width: 250px;
+	/*width: 250px;*/
 	color: #ffffff;
 	background: #4aaaa5;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.input {
+.carousel-caption{
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Georgia', Times,Times New Roman, serif;
+	font-size: 20px;
+}
+
+/*.input {
 	width:100%;
 	color: #777;
 	line-height: 2;
-}
+}*/
 
-.button {
+.btn-teal {
 	color: #ffffff;
 	background: #4aaaa5;
 	padding: 10px 30px;
@@ -213,11 +223,31 @@ body {
   background: #666666;
   text-align: center;
   color: #eee;
+  margin-top: 10px;
 }
 
 .p_footer {
 	padding-top: 10px;
 }
+
+.panel {
+	margin-top: 10px;
+}
+
+.p_img {
+	padding-top: 10px;
+}
+
+.caption {
+        width:100%;
+        bottom: .3rem;
+        position: absolute;
+        /*background:#000;
+        background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    }
 
 /*Sticky Footer*/
 /*html, body {
